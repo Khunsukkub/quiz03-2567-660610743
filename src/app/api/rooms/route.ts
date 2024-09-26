@@ -1,6 +1,5 @@
-import { DB, readDB, writeDB , originalDB , Room , User} from "@lib/DB";
+import { readDB, writeDB , originalDB , User} from "@lib/DB";
 import { checkToken } from "@lib/checkToken";
-import { toUpper } from "lodash";
 import { nanoid } from "nanoid";
 import { NextRequest, NextResponse } from "next/server";
 
